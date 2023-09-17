@@ -1,53 +1,60 @@
-body{
+/* Reset default margin and padding for the entire body */
+body {
     margin: 0;
     padding: 0;
-    background-color: #0074DC;
+    background-color: #00253a; /* Set the background color for the entire page */
 }
 
-.center{
+/* Center align the content */
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 650px;
-    background-color: white;
-    border-radius: 5px;
+    transform: translate(-50%, -50%); /* Center the content horizontally and vertically */
+    width: 650px; /* Set a fixed width for the center container */
+    background-color: white; /* Background color for the center container */
+    border-radius: 5px; /* Add rounded corners to the container */
 }
 
-.center h1{
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid silver;
+/* Style the heading */
+.center h1 {
+    text-align: center; /* Center align the text */
+    padding-bottom: 20px; /* Add some spacing below the heading */
+    border-bottom: 1px solid silver; /* Add a horizontal line below the heading */
 }
 
-.form{
-    padding-bottom: 15px;
-    margin: 0 20px;
+/* Style the form elements */
+.form {
+    padding-bottom: 15px; /* Add spacing at the bottom of the form */
+    margin: 0 20px; /* Add margin to the form container */
 }
 
-.textfield, textarea{
-    width: 100%;
-    height: 40px;
-    font-size: 18px;
-    border: 2px solid #0074DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding-left: 10px;
-    margin: 7px 0;
+/* Style text fields and text areas */
+.textfield, textarea {
+    width: 100%; /* Make the text fields and text areas full width */
+    height: 40px; /* Set the height of text fields */
+    font-size: 18px; /* Set the font size */
+    border: 2px solid #00253a; /* Add a border with a specific color */
+    border-radius: 5px; /* Add rounded corners to text fields and text areas */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    padding-left: 10px; /* Add left padding to text fields */
+    margin: 7px 0; /* Add margin to text fields */
 }
 
-textarea{
-    height: 80px;
+/* Style the text area (make it taller) */
+textarea {
+    height: 80px; /* Increase the height of text areas */
 }
 
-.btn{
-    width: 18%;
-    height: 50px;
-    background-color: #a8a8a8;
-    border: 0;
-    border-radius: 5px;
-    font-size: 20px;
-    color: white;
-    cursor: pointer;
-    margin: 7px 4px;
+/* Style buttons */
+.btn {
+    width: 18%; /* Set the width of buttons */
+    height: 50px; /* Set the height of buttons */
+    background-color: #a8a8a8; /* Set the background color of buttons */
+    border: 0; /* Remove the border from buttons */
+    border-radius: 5px; /* Add rounded corners to buttons */
+    font-size: 20px; /* Set the font size of buttons */
+    color: white; /* Set the text color of buttons */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    margin: 7px 4px; /* Add margin to buttons */
 }
